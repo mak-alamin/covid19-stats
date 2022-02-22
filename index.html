@@ -7,7 +7,12 @@
     <title>Covid19 Stats</title>
   </head>
   <body>
-    <select name="countries" id="countrySelect"></select>
+    <h1>Covid-19 Statictics</h1>
+    <select
+      name="countries"
+      id="countrySelect"
+      onchange="loadCasesByCountry(this.value)"
+    ></select>
     <script src="app.js"></script>
   </body>
 </html>
